@@ -202,6 +202,7 @@ const products = [
       "Ilumina y unifica el tono.",
       "Suave con piel sensible.",
       "Reduce manchas.",
+      "Antioxidante contra el envejecimiento.",
       "Regenera y fortalece la piel."
     ],
     price:95,
