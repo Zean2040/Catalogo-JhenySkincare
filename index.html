@@ -1,0 +1,147 @@
+<!-- ==========================
+     index.html (COMPLETO)
+========================== -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jhen Skincare | Catálogo</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+         <img class="brand__logo" src="assets/logo.jpg" alt="Logo Jhen Skincare">
+        <div>
+          <div class="brand__name">Jhen Skincare</div>
+          <div class="brand__tag">
+            Descubre nuestra línea de productos Naturales y Veganos.
+            <span class="dot">•</span> Somos de Trujillo – Perú
+            <span class="dot">•</span> Envíos a todo el Perú 
+              <span class="dot">•</span> 100% Originales  
+          </div>
+        </div>
+      </div>
+
+      <div class="topbar__actions">
+        <button id="btnContactTop" class="btn btn--ghost" type="button">Contáctanos</button>
+
+        <button id="btnCart" class="btn btn--primary" type="button" aria-label="Abrir carrito">
+          🛒 Carrito
+          <span id="cartBadge" class="badge">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="wrap filters">
+        <div class="promoBanner" aria-label="Banner promocional">
+        <img src="assets/banner.webp" alt="Jhen Skincare - Catálogo" loading="lazy">
+      </div>
+
+      <div class="search">
+        <input id="q" type="search" placeholder="Buscar producto (ej: Centella, Vitamina C, Bloqueador…)" />
+      </div>
+
+      <div id="chips" class="chips" aria-label="Categorías"></div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="wrap main">
+    <section class="hero">
+      <div>
+        <h1>Catálogo Virtual</h1>
+        <p>
+          Agrega productos al carrito y presiona <b>“Pedir por WhatsApp”</b>.
+     <b>Yape / Plin</b> o coordinar <b>efectivo</b>.
+        </p>
+      </div>
+
+     
+    
+    </section>
+
+    <section>
+      <div class="sectionHead">
+        <h2 id="sectionTitle">Productos</h2>
+        <div class="muted" id="resultCount"></div>
+      </div>
+
+      <div id="grid" class="grid"></div>
+    </section>
+
+    <!-- Contacto al final -->
+    <section id="contact" class="contact">
+      <div class="contact__card">
+        <h3>Contáctanos</h3>
+        <p class="muted">
+          Atención por WhatsApp. Envíos a todo el Perú. Pagos por Yape/Plin o efectivo (según coordinación).
+        </p>
+
+        <div class="contact__actions">
+          <a id="waDirect" class="btn btn--primary" href="#" target="_blank" rel="noopener">
+            📲 Ir a WhatsApp
+          </a>
+          <button id="btnCopyPhone" class="btn btn--ghost" type="button">Copiar número</button>
+        </div>
+
+        <div class="contact__note">
+          <span class="k">WhatsApp:</span> <span id="phoneText"></span>
+        </div>
+      </div>
+
+      <div class="fineprint">
+        <div><b>Jhen Skincare</b> • Trujillo, Perú • Envíos a todo el Perú .Traidos desde Corea </div>
+       
+      </div>
+    </section>
+  </main>
+
+  <!-- Drawer del carrito -->
+  <aside id="drawer" class="drawer" aria-hidden="true">
+    <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Carrito de compras">
+      <div class="drawer__head">
+        <div>
+          <div class="drawer__title">Tu carrito</div>
+          <div class="muted" id="cartSubtitle">0 items</div>
+        </div>
+        <button id="btnCloseCart" class="iconBtn" type="button" aria-label="Cerrar">✕</button>
+      </div>
+
+      <div id="cartList" class="cartList"></div>
+
+      <div class="drawer__foot">
+        <div class="totals">
+          <div class="muted">Total</div>
+          <div id="cartTotal" class="total">S/.0</div>
+        </div>
+
+        <div class="drawer__cta">
+          <button id="btnClear" class="btn btn--ghost" type="button">Vaciar</button>
+          <a id="btnCheckout" class="btn btn--primary" href="#" target="_blank" rel="noopener">
+            Pedir por WhatsApp
+          </a>
+        </div>
+
+        <div class="muted tiny">
+          Al presionar “Pedir por WhatsApp”, se genera un mensaje con tu pedido.
+        </div>
+      </div>
+    </div>
+
+    <div id="backdrop" class="drawer__backdrop" aria-hidden="true"></div>
+  </aside>
+
+  <script src="app.js"></script>
+</body>
+</html>
