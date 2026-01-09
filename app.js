@@ -121,7 +121,7 @@ const products = [
       "Controla el exceso de sebo y deja la piel mate",
       "Textura ligera y suave.",
       "Protección solar efectiva.",
-      "deal para piel mixta o grasa.",
+      "Ideal para piel mixta o grasa.",
       "No obstruye los poros."
     ],
     price:75,
@@ -251,7 +251,7 @@ const products = [
       "Reduce arrugas y signos de envejecimiento.",
       "Regenera y fortalece la piel."
     ],
-    price:80,
+    price:90,
     image:"assets/products/celimax-retinal.webp"
   },
 
