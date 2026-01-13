@@ -199,6 +199,7 @@ const products = [
     category:"Sérums",
     name:"DR.ALTHEA Gentle Vitamina C",
     bullets:[
+      "Una opción ideal para iniciarse con la vitamina C.",
       "Ilumina y unifica el tono.",
       "Suave con piel sensible.",
       "Reduce manchas.",
@@ -301,6 +302,20 @@ const products = [
     image:"assets/products/koji-white.jpg"
   },
 
+  {
+    id:"cream-aplb-tranex-niac",
+    category:"Sérums",
+    name:"APLB Tranexamic Acid Niacinamide",
+    bullets:[
+      "Reduce y previene manchas.",
+      "Reduce el enrojecimiento y calma la piel.",
+      "Fortalece la barrera cutánea.",
+      "Reduce imperfecciones e ilumina y unifica."
+    ],
+    price:85,
+    image:"assets/products/aplb-tranex.webp"
+  },
+
   // CREMAS FACIALES
   {
     id:"cream-centelian-24-madeca",
@@ -389,20 +404,6 @@ const products = [
     ],
     price:90,
     image:"assets/products/dralthea-345.png"
-  },
-
-  {
-    id:"cream-aplb-tranex-niac",
-    category:"Cremas faciales",
-    name:"APLB Tranexamic Acid Niacinamide",
-    bullets:[
-      "Reduce y previene manchas.",
-      "Reduce el enrojecimiento y calma la piel.",
-      "Fortalece la barrera cutánea.",
-      "Reduce imperfecciones e ilumina y unifica."
-    ],
-    price:85,
-    image:"assets/products/aplb-tranex.webp"
   },
 
   {
