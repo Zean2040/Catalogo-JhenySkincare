@@ -30,7 +30,7 @@ const products = [
     ],
     price: 75,
     variants: [
-      { label: "UND", price: 75 },
+      { label: "UND", price: 70 },
       { label: "DUO", price: 120 }
     ],
     // ✅ pon aquí la ruta real + extensión correcta (jpg/png/webp)
@@ -49,7 +49,7 @@ const products = [
       "Disminuye el sebo facial.",
       "Contiene extracto de centella."
     ],
-    price:75,
+    price:70,
     image:"assets/products/SKIN1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick.webp"
   },
 
@@ -64,7 +64,7 @@ const products = [
       "No deja residuo blanco ni sensación pegajosa.",
       "Ideal para piel grasa o mixta."
     ],
-    price:75,
+    price:70,
     image:"assets/products/celimax-mattify-stick.webp"
   },
 
@@ -79,7 +79,7 @@ const products = [
       "Ideal para piel mixta o grasa.",
       "No obstruye los poros."
     ],
-    price:80,
+    price:75,
     image:"assets/products/celimax-light.webp"
   },
 
@@ -94,7 +94,7 @@ const products = [
       "Fórmula suave pero eficaz.",
       "Mejora la claridad general de la piel."
     ],
-    price:85,
+    price:80,
     image:"assets/products/celimax-pore-darkspot.webp"
   },
 
@@ -110,7 +110,7 @@ const products = [
       "Hidratante y calmante de la piel.",
       "Aporta frescura inmediata."
     ],
-    price:75,
+    price:70,
     image:"assets/products/cosrx-aloe.webp"
   },
     {
@@ -124,7 +124,7 @@ const products = [
       "Ideal para piel mixta o grasa.",
       "No obstruye los poros."
     ],
-    price:75,
+    price:70,
     image:"assets/products/boj-relief-sun.webp"
   },
 
@@ -139,7 +139,7 @@ const products = [
       "Contiene propiedades antioxidantes.",
       "Protector solar con color."
     ],
-    price:85,
+    price:80,
     image:"assets/products/anua-heartleaf-suncream.webp"
   },
  
@@ -156,7 +156,7 @@ const products = [
       "Estimula la regeneración cutánea.",
       "Nutre y fortalece la barrera cutánea."
     ],
-    price:85,
+    price:80,
     image:"assets/products/ksecret-1988-cream.webp"
   },
 
@@ -173,7 +173,7 @@ const products = [
       "Hidratación profunda y reparación.",
       "Regenera la piel desde el interior"
     ],
-    price:95,
+    price:90,
       image:"assets/products/skin1004-tone-brightening.webp"
   },
 
@@ -189,7 +189,7 @@ const products = [
       "Textura ligera y no pegajosa.",
       "Regenera la piel desde el interior"
     ],
-    price:95,
+    price:90,
     image:"assets/products/skin1004-retinol-02.webp"
     
   },
@@ -206,7 +206,7 @@ const products = [
       "Antioxidante contra el envejecimiento.",
       "Regenera y fortalece la piel."
     ],
-    price:95,
+    price:90,
    image:"assets/products/skin1004-matrixyl-10.webp"
   },
 
@@ -222,7 +222,8 @@ const products = [
       "Antioxidante contra el envejecimiento.",
       "Regenera y fortalece la piel."
     ],
-    price:95,
+    status:"Agotado",
+    price:90,
     image:"assets/products/dralthea-vitc-boosting.png"
   },
 
@@ -252,7 +253,7 @@ const products = [
       "Reduce arrugas y signos de envejecimiento.",
       "Regenera y fortalece la piel."
     ],
-    price:90,
+    price:85,
     image:"assets/products/celimax-retinal.webp"
   },
 
@@ -266,7 +267,7 @@ const products = [
       "Disminuye la apariencia de los poros.",
       "Mejora la elasticidad y revitaliza la piel."
     ],
-    price:85,
+    price:80,
     image:"assets/products/aplb-kojic-vitc.jpg"
   },
 
@@ -298,7 +299,7 @@ const products = [
       "Aporta brillo y luminosidad.",
       "Efecto anti-edad."
     ],
-    price:115,
+    price:110,
     image:"assets/products/koji-white.jpg"
   },
 
@@ -312,7 +313,7 @@ const products = [
       "Fortalece la barrera cutánea.",
       "Reduce imperfecciones e ilumina y unifica."
     ],
-    price:85,
+    price:80,
     image:"assets/products/aplb-tranex.webp"
   },
 
@@ -328,7 +329,7 @@ const products = [
       "Calma y protege la piel sensible.",
       "Deja la piel suave y sin sensación pegajosa."
     ],
-    price:95,
+    price:90,
     image:"assets/products/centelian-24.webp"
   },
 
@@ -372,7 +373,7 @@ const products = [
       "Reduce el brillo.",
       "Se absorbe rápidamente sin dejar residuos."
     ],
-    price:90,
+    price:85,
     image:"assets/products/celimax-oil-control-cream.png"
   },
 
@@ -387,7 +388,7 @@ const products = [
       "Mejora la textura y aumenta la elasticidad de la piel.",
       "Fórmula suave apta para pieles sensibles y secas."
     ],
-    price:90,
+    price:85,
     image:"assets/products/mixsoon-bean-cream.png"
   },
 
@@ -402,7 +403,7 @@ const products = [
       "Hidrata intensamente sin obstruir los poros.",
       "Ilumina el tono y revitaliza la piel apagada."
     ],
-    price:90,
+    price:85,
     image:"assets/products/dralthea-345.png"
   },
 
@@ -416,7 +417,7 @@ const products = [
       "Hidratación ligera.",
       "Fortalece la barrera cutánea."
     ],
-    price:95,
+    price:90,
     image:"assets/products/celimax-pore-darkspot-cream.webp"
   },
 
@@ -432,7 +433,7 @@ const products = [
       "Hidratación profunda.",
       "Regenera, fortalece la piel y reduce líneas finas y arrugas."
     ],
-    price:115,
+    price:110,
     image:"assets/products/aplb-body-retinol.png"
   },
 
@@ -446,7 +447,7 @@ const products = [
       "Fortalece la barrera cutánea.",
       "Reduce imperfecciones e ilumina y unifica."
     ],
-    price:115,
+    price:110,
     image:"assets/products/aplb-body-tranex.webp"
   },
 
@@ -462,7 +463,7 @@ const products = [
       "Nutre profundamente sin ser pesada.",
       "Aclara el tono oscuro del contorno de ojos."
     ],
-    price:80,
+    price:75,
     image:"assets/products/eye-skin1004-bakuchiol.webp"
   },
 
@@ -476,7 +477,7 @@ const products = [
       "Aporta iluminación y mejora el contorno.",
       "Firmeza y elasticidad."
     ],
-    price:85,
+    price:80,
     image:"assets/products/eye-ksecret-1988.webp"
   },
 
@@ -490,7 +491,7 @@ const products = [
       "Proporciona firmeza y elasticidad a la piel.",
       "Hidrata e ilumina."
     ],
-    price:80,
+    price:75,
     image:"assets/products/eye-tocobo.webp"
   },
 
@@ -504,7 +505,7 @@ const products = [
       "Fortalece la elasticidad y suaviza arrugas leves.",
       "Reduce irritaciones."
     ],
-    price:80,
+    price:75,
     status:"Agotado",
     image:"assets/products/eye-torriden.webp"
   },
@@ -536,7 +537,7 @@ const products = [
       "Fórmula suave y sin irritación.",
       "Formulado con vitaminas C y E para una piel más luminosa y saludable."
     ],
-    price:95,
+    price:90,
     image:"assets/products/mixsoon-bean-essence.jpg"
   },
 
@@ -550,7 +551,7 @@ const products = [
       "Mejora el tono apagado de la piel.",
       "Cuidado efectivo desde casa en solo 1-2 veces por semana."
     ],
-    price:80,
+    price:75,
     image:"assets/products/skin1004-stick-mask.webp"
   },
 
@@ -565,7 +566,7 @@ const products = [
       "Revitaliza piel apagada.",
       "Ayuda a mejorar el acné."
     ],
-    price:95,
+    price:90,
     image:"assets/products/mixsoon-centella.png"
   },
 
@@ -581,7 +582,7 @@ const products = [
       "Mantiene la piel hidratada.",
       "Efecto calmante facial."
     ],
-    price:80,
+    price:75,
     image:"assets/products/skin1004-aceite-limpiador.jpg"
   },
 
@@ -595,7 +596,7 @@ const products = [
       "Mantiene la piel hidratada.",
       "Efecto calmante facial."
     ],
-    price:70,
+    price:65,
     image:"assets/products/skin1004-espuma.jpg"
   },
 ];
