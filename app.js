@@ -463,7 +463,7 @@ const products = [
       "Nutre profundamente sin ser pesada.",
       "Aclara el tono oscuro del contorno de ojos."
     ],
-    price:75,
+    price:80,
     image:"assets/products/eye-skin1004-bakuchiol.webp"
   },
 
@@ -477,7 +477,7 @@ const products = [
       "Aporta iluminación y mejora el contorno.",
       "Firmeza y elasticidad."
     ],
-    price:80,
+    price:85,
     image:"assets/products/eye-ksecret-1988.webp"
   },
 
@@ -491,7 +491,7 @@ const products = [
       "Proporciona firmeza y elasticidad a la piel.",
       "Hidrata e ilumina."
     ],
-    price:75,
+    price:80,
     image:"assets/products/eye-tocobo.webp"
   },
 
@@ -505,7 +505,7 @@ const products = [
       "Fortalece la elasticidad y suaviza arrugas leves.",
       "Reduce irritaciones."
     ],
-    price:75,
+    price:80,
     status:"Agotado",
     image:"assets/products/eye-torriden.webp"
   },
