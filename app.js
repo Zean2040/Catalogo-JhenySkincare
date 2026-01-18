@@ -268,6 +268,7 @@ const products = [
       "Mejora la elasticidad y revitaliza la piel."
     ],
     price:80,
+    status:"Agotado",
     image:"assets/products/aplb-kojic-vitc.jpg"
   },
 
@@ -314,6 +315,7 @@ const products = [
       "Reduce imperfecciones e ilumina y unifica."
     ],
     price:80,
+    status:"Agotado",
     image:"assets/products/aplb-tranex.webp"
   },
 
@@ -330,6 +332,7 @@ const products = [
       "Deja la piel suave y sin sensación pegajosa."
     ],
     price:90,
+    status:"Agotado",
     image:"assets/products/centelian-24.webp"
   },
 
@@ -538,6 +541,7 @@ const products = [
       "Formulado con vitaminas C y E para una piel más luminosa y saludable."
     ],
     price:90,
+    status:"Agotado",
     image:"assets/products/mixsoon-bean-essence.jpg"
   },
 
@@ -599,6 +603,19 @@ const products = [
     price:65,
     image:"assets/products/skin1004-espuma.jpg"
   },
+  {
+    id:"Lip-y-Eye",
+    category:"otros",
+    bullets:[
+      "Acabado brillante y fresco",
+      "Ideal para preparar el maquillaje de labios",
+      "Reduce bolsas y aclara el tono en las ojeras",
+      "Mejora la elasticidad de la piel"
+    ],
+    name:"AXIX-Y-Set de labial y Sérum de Lip y EYE",
+    price:105,
+    image:"assets/products/LipyEye.jpg"
+  }
 ];
 
 const categories = ["Todos", ...Array.from(new Set(products.map(p => p.category)))];
