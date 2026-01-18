@@ -587,6 +587,7 @@ const products = [
       "Efecto calmante facial."
     ],
     price:75,
+    status:"Agotado",
     image:"assets/products/skin1004-aceite-limpiador.jpg"
   },
 
@@ -604,18 +605,33 @@ const products = [
     image:"assets/products/skin1004-espuma.jpg"
   },
   {
-    id:"Lip-y-Eye",
-    category:"otros",
-    bullets:[
-      "Acabado brillante y fresco",
-      "Ideal para preparar el maquillaje de labios",
-      "Reduce bolsas y aclara el tono en las ojeras",
-      "Mejora la elasticidad de la piel"
-    ],
-    name:"AXIX-Y-Set de labial y Sérum de Lip y EYE",
-    price:105,
-    image:"assets/products/LipyEye.jpg"
-  }
+  id: "Lip-y-Eye",
+  category: "otros",
+  name: "AXIX-Y-Set de labial y Sérum de Lip y EYE",
+  price: 105,
+  image: "assets/products/LipyEye.jpg",
+  features: [
+    {
+      title: "Labial",
+      bullets: [
+        "Acabado brillante y fresco",
+        "Ideal para preparar el maquillaje de labios",
+        "Contiene vitamina E",
+        "Perfecto como mascarrilla de noche",
+        "48 horas de hidratación"
+      ]
+    },
+    {
+      title: "Sérum",
+      bullets: [
+        "Reduce bolsas y aclara el tono en las ojeras",
+        "Mejora la elasticidad de la piel",
+        "Colágeno y triple ácido hialurónico",
+        "Ilumina e hidrata intensamente"
+      ]
+    }
+  ]
+}
 ];
 
 const categories = ["Todos", ...Array.from(new Set(products.map(p => p.category)))];
@@ -745,7 +761,11 @@ function render(){
 
   const filtered = products.filter(p => {
     const okCat = state.category === "Todos" ? true : p.category === state.category;
-    const hay = (p.name + " " + (p.bullets||[]).join(" ") + " " + p.category).toLowerCase();
+    const featureText = (p.features || [])
+  .flatMap(s => [s.title, ...(s.bullets || [])])
+  .filter(Boolean)
+  .join(" ");
+    const hay = (p.name + " " + (p.bullets||[]).join(" ") + " " + featureText + " " + p.category).toLowerCase();
     const okQ = state.q ? hay.includes(state.q) : true;
     return okCat && okQ;
   });
@@ -799,13 +819,40 @@ function productCard(p){
   title.className = "card__title";
   title.textContent = p.name;
 
+  let detailsEl = null;
+
+if (p.features && Array.isArray(p.features) && p.features.length) {
+  detailsEl = document.createElement("div");
+  detailsEl.className = "features";
+
+  p.features.forEach(sec => {
+    const h = document.createElement("div");
+    h.className = "featureTitle";
+    h.textContent = sec.title || "";
+
+    const ul = document.createElement("ul");
+    ul.className = "bullets";
+
+    (sec.bullets || []).slice(0, 6).forEach(t => {
+      const li = document.createElement("li");
+      li.textContent = t;
+      ul.appendChild(li);
+    });
+
+    detailsEl.append(h, ul);
+  });
+}
+else {
   const ul = document.createElement("ul");
   ul.className = "bullets";
-  (p.bullets || []).slice(0,6).forEach(t => {
+  (p.bullets || []).slice(0, 6).forEach(t => {
     const li = document.createElement("li");
     li.textContent = t;
     ul.appendChild(li);
   });
+  detailsEl = ul;
+}
+
 
   const row = document.createElement("div");
   row.className = "card__row";
@@ -857,7 +904,7 @@ function productCard(p){
   });
 
   row.append(leftBox, btn);
-  body.append(title, ul, row);
+  body.append(title, detailsEl, row);
   card.append(img, body);
   return card;
 }

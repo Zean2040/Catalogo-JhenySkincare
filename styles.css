@@ -604,3 +604,10 @@ body{
     line-height:1;
   }
 }
+.features { margin-top: 6px; }
+
+.featureTitle{
+  margin: 10px 0 6px;
+  font-weight: 800;
+  font-size: .95rem;
+}
