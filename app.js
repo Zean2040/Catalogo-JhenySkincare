@@ -608,7 +608,7 @@ const products = [
   id: "Lip-y-Eye",
   category: "otros",
   name: "AXIX-Y-Set de labial y Sérum de Lip y EYE",
-  price: 105,
+  price: 110,
   image: "assets/products/LipyEye.jpg",
   features: [
     {
