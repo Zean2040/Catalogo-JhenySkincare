@@ -64,6 +64,7 @@ const products = [
       "No deja residuo blanco ni sensación pegajosa.",
       "Ideal para piel grasa o mixta."
     ],
+    status:"Agotado",
     price:70,
     image:"assets/products/celimax-mattify-stick.webp"
   },
@@ -94,6 +95,7 @@ const products = [
       "Fórmula suave pero eficaz.",
       "Mejora la claridad general de la piel."
     ],
+    status:"Agotado",
     price:80,
     image:"assets/products/celimax-pore-darkspot.webp"
   },
@@ -423,6 +425,20 @@ const products = [
     price:90,
     image:"assets/products/celimax-pore-darkspot-cream.webp"
   },
+  {
+    id:"tranexamic-acid",
+    category:"Cremas faciales",
+    name:"Tranexamic Acic Niacinamide facial cream",
+    bullets:[
+      "Reduce y previene manchas.",
+      "Reduce el enrojecimiento y calma la piel.",
+      "Fortalece la barrera cutánea.",
+      "Reduce imperfecciones e ilumina y unifica.",
+      
+    ],
+    price:85,
+    image:"assets/products/tranexamic.jpg"
+  },
 
   // CREMAS CORPORALES
   {
@@ -601,14 +617,17 @@ const products = [
       "Mantiene la piel hidratada.",
       "Efecto calmante facial."
     ],
+    status:"Agotado",
     price:65,
     image:"assets/products/skin1004-espuma.jpg"
   },
+  
   {
   id: "Lip-y-Eye",
   category: "otros",
   name: "AXIX-Y-Set de labial y Sérum de Lip y EYE",
   price: 110,
+  status: "Agotado",
   image: "assets/products/LipyEye.jpg",
   features: [
     {
