@@ -450,7 +450,8 @@ const products = [
       "Suave con piel sensible.",
       "Reduce manchas.",
       "Hidratación profunda.",
-      "Regenera, fortalece la piel y reduce líneas finas y arrugas."
+      "Regenera, fortalece la piel y reduce líneas finas y arrugas.",
+      "Reduce y atenúa estrías de la piel."
     ],
     price:110,
     image:"assets/products/aplb-body-retinol.png"
