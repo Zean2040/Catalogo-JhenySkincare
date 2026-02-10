@@ -240,6 +240,7 @@ const products = [
       "Ofrece hidratación duradera y nutritiva.",
       "Aumenta la elasticidad de manera visible."
     ],
+    status:"Agotado",
     price:110,
     image:"assets/products/medicube-pdrn-serum.jpg"
   },
@@ -349,6 +350,7 @@ const products = [
       "Hidrata intensamente.",
       "Refuerza la barrera cutánea."
     ],
+    status:"Agotado",
     price:110,
     image:"assets/products/medicube-deep-vita-c.webp"
   },
@@ -540,6 +542,7 @@ const products = [
       "Hace que la piel luzca joven y suave.",
       "Aclara y disminuye las ojeras."
     ],
+    status:"Agotado",
     price:90,
     image:"assets/products/eye-medicube-pdrn.webp"
   },
@@ -587,6 +590,7 @@ const products = [
       "Revitaliza piel apagada.",
       "Ayuda a mejorar el acné."
     ],
+    status:"Agotado",
     price:90,
     image:"assets/products/mixsoon-centella.png"
   },
