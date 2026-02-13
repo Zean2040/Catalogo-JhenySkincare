@@ -317,7 +317,7 @@ const products = [
       "Fortalece la barrera cutánea.",
       "Reduce imperfecciones e ilumina y unifica."
     ],
-    price:80,
+    price:75,
     status:"Agotado",
     image:"assets/products/aplb-tranex.webp"
   },
@@ -438,7 +438,7 @@ const products = [
       "Reduce imperfecciones e ilumina y unifica.",
       
     ],
-    price:85,
+    price:75,
     image:"assets/products/tranexamic.jpg"
   },
 
