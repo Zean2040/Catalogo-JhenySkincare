@@ -270,7 +270,7 @@ const products = [
       "Disminuye la apariencia de los poros.",
       "Mejora la elasticidad y revitaliza la piel."
     ],
-    price:80,
+    price:75,
     status:"Agotado",
     image:"assets/products/aplb-kojic-vitc.jpg"
   },
@@ -455,7 +455,7 @@ const products = [
       "Regenera, fortalece la piel y reduce líneas finas y arrugas.",
       "Reduce y atenúa estrías de la piel."
     ],
-    price:110,
+    price:85,
     image:"assets/products/aplb-body-retinol.png"
   },
 
@@ -469,7 +469,7 @@ const products = [
       "Fortalece la barrera cutánea.",
       "Reduce imperfecciones e ilumina y unifica."
     ],
-    price:110,
+    price:85,
     image:"assets/products/aplb-body-tranex.webp"
   },
 
