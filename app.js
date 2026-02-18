@@ -127,6 +127,7 @@ const products = [
       "Ideal para piel mixta o grasa.",
       "No obstruye los poros."
     ],
+    status:"Agotado",
     price:70,
     image:"assets/products/boj-relief-sun.webp"
   },
