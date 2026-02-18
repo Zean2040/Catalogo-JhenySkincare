@@ -49,6 +49,7 @@ const products = [
       "Disminuye el sebo facial.",
       "Contiene extracto de centella."
     ],
+    status:"Agotado",
     price:70,
     image:"assets/products/SKIN1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick.webp"
   },
@@ -575,6 +576,7 @@ const products = [
       "Mejora el tono apagado de la piel.",
       "Cuidado efectivo desde casa en solo 1-2 veces por semana."
     ],
+    status:"Agotado",
     price:75,
     image:"assets/products/skin1004-stick-mask.webp"
   },
