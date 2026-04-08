@@ -210,6 +210,7 @@ const products = [
       "Antioxidante contra el envejecimiento.",
       "Regenera y fortalece la piel."
     ],
+    status:"Agotado",
     price:90,
    image:"assets/products/skin1004-matrixyl-10.webp"
   },
@@ -412,6 +413,7 @@ const products = [
       "Hidrata intensamente sin obstruir los poros.",
       "Ilumina el tono y revitaliza la piel apagada."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/dralthea-345.png"
   },
