@@ -741,7 +741,8 @@ const products = [
    price:40,
    tag:"Disponible en el tono #01",
    images:[
-    "assets/products/pudaier_tono.png"
+    "assets/products/pudaier_tono.png",
+    "assets/products/pudaier.jpeg"
    ],
   },
   {
