@@ -666,7 +666,7 @@ const products = [
       "Disponible en el tono k16"
     ],
    price:35,
-   image:[
+   images:[
        "assets/products/labial_k16.jpeg",
        "assets/products/sace_lady_k16.jpeg"
    ]
@@ -679,7 +679,7 @@ const products = [
     "Disponible en el tono R03"
   ],
   price:35,
-  image:"assets/products/uoram_labial.jpeg"
+  image:"assets/products/Uoram_labial.jpeg"
   },
   {
   id:"black rouge",
@@ -689,7 +689,7 @@ const products = [
     "Disponible en el tono DL03 Fauve Layer"
   ],
   price:50,
-  image:[
+  images:[
     "assets/products/black_tinte.jpeg",
     "assets/products/black_rouge.jpeg"
   ],
@@ -702,11 +702,11 @@ const products = [
     image:"assets/products/shobido.jpeg"
   },
    {
-   id:"shobido",
+   id:"gege_bear",
   category:"Maquillaje",
   name:"GEGE BEAR - Tinte labial bunny",
   price:35,
-  image:[
+  images:[
     "assets/products/gege_bear.jpeg",
     "assets/products/gege_bear2.jpeg",
     "assets/products/gege_tono.jpeg"
@@ -728,10 +728,10 @@ const products = [
   name:"HANDAIYAN - Rubor en barra con Tinte",
   price:40,
   tag:"Disponible en el tono #04",
-  image:[
-    "assets/products/handaiyan.jpeg",
-    "assets/products/handaiyan2.jpeg",
-    "assets/products/handaiyan_tono.jpeg"
+  images:[
+    "assets/products/Handaiyan.jpeg",
+    "assets/products/Handaiyan2.jpeg",
+    "assets/products/Handaiyan_tono.jpeg"
   ],
    },
   {
@@ -740,9 +740,8 @@ const products = [
   name:"PUDAIER - Mascarilla labial hidratante con color",
    price:40,
    tag:"Disponible en el tono #01",
-   image:[
-    "assets/products/pudaier.jpeg",
-    "assets/products/pudaier_tono.png",
+   images:[
+    "assets/products/pudaier_tono.png"
    ],
   },
   {
@@ -751,9 +750,9 @@ const products = [
   name:"MACK ANDY - Rubor con relieve de flores aterciopeladas",
   price:45,
   tag:"Disponible en el tono M03 lavender",
-  image:[
+  images:[
     "assets/products/Mack_Andy.jpeg",
-    "assets/products/Mack_tono.jpeg",
+    "assets/products/Mack_tono.jpeg"
   ]
   },
   {
@@ -762,9 +761,9 @@ const products = [
   name:"LEEMEMBER  - Rubor e Iluminador en polvo",
   price:50,
   tag:"Disponible en el tono #PU02",
-  image:[
-    "assets/products/leemember.jpeg",
-    "assets/products/leemember_tono.jpeg",
+  images:[
+    "assets/products/Leemember.jpeg",
+    "assets/products/leemember_tono.jpeg"
   ]
   },
   {
