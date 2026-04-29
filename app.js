@@ -631,7 +631,142 @@ const products = [
     price:65,
     image:"assets/products/skin1004-espuma.jpg"
   },
-  
+  /* Maquillaje */
+  {
+   id:"tirtir",
+   category:"Maquillaje",
+   name:"TIRTIR - Base en formato cushion",
+   bullets:[
+     "Ofrece un acabado mate de larga duración (72h)",
+     "cubre imperfecciones,  rojeces y poros con alta cobertura.", 
+    "Incluye protección solar SPF40-50"
+   ],
+   price:105,
+   tag:"Disponible en tono 17",
+   images:[
+     "assets/products/tirtir.jpeg",
+     "assets/products/tirtir_17.jpeg"
+   ] 
+  },
+  {
+    id:"mixsoon_labial",
+  category:"Maquillaje",
+  name:"MIXSOON  - Bálsamo labial",
+  bullets:[
+    "Tono dry rose",
+  ],
+  price:50,
+  image:"assets/products/mixsoon_labial.jpeg"
+  },
+  {
+    id:"sace_lady",
+    category:"Maquillaje",
+    name:"SACE LADY - Tinte labial mate",
+    bullets:[
+      "Disponible en el tono k16"
+    ],
+   price:35,
+   image:[
+       "assets/products/labial_k16.jpeg",
+       "assets/products/sace_lady_k16.jpeg"
+   ]
+  },
+  {
+    id:"uoram",
+  category:"Maquillaje",
+  name:"UORAM - Bálsamo labial",
+  bullets:[
+    "Disponible en el tono R03"
+  ],
+  price:35,
+  image:"assets/products/uoram_labial.jpeg"
+  },
+  {
+  id:"black rouge",
+  category:"Maquillaje",
+  name:"BLACK ROUGE - Tinte aterciopelado",
+  bullets:[
+    "Disponible en el tono DL03 Fauve Layer"
+  ],
+  price:50,
+  image:[
+    "assets/products/black_tinte.jpeg",
+    "assets/products/black_rouge.jpeg"
+  ],
+  },
+  {
+    id:"shobido",
+    category:"Maquillaje",
+    name:"SHOBIDO - Bálsamo labial Disney Frozen",
+    price:50,
+    image:"assets/products/shobido.jpeg"
+  },
+   {
+   id:"shobido",
+  category:"Maquillaje",
+  name:"GEGE BEAR - Tinte labial bunny",
+  price:35,
+  image:[
+    "assets/products/gege_bear.jpeg",
+    "assets/products/gege_bear2.jpeg",
+    "assets/products/gege_tono.jpeg"
+  ],
+   },
+   {
+    id:"bioaqua",
+    category:"Maquillaje",
+    name:"BIOAQUA - Sakura Fragance",
+    bullets:[
+      "Bálsamo labial"
+    ],
+    price:35,
+    image:"assets/products/bioaqua.jpeg"
+   },   
+  {
+   id:"handaiyan",
+  category:"Maquillaje",
+  name:"HANDAIYAN - Rubor en barra con Tinte",
+  price:40,
+  tag:"Disponible en el tono #04",
+  image:[
+    "assets/products/handaiyan.jpeg",
+    "assets/products/handaiyan2.jpeg",
+    "assets/products/handaiyan_tono.jpeg"
+  ],
+   },
+  {
+  id:"pudaier",
+  category:"Maquillaje",
+  name:"PUDAIER - Mascarilla labial hidratante con color",
+   price:40,
+   tag:"Disponible en el tono #01",
+   image:[
+    "assets/products/pudaier.jpeg",
+    "assets/products/pudaier_tono.png",
+   ],
+  },
+  {
+    id:"MACK ANDY ",
+  category:"Maquillaje",
+  name:"MACK ANDY - Rubor con relieve de flores aterciopeladas",
+  price:45,
+  tag:"Disponible en el tono M03 lavender",
+  image:[
+    "assets/products/Mack_Andy.jpeg",
+    "assets/products/Mack_tono.jpeg",
+  ]
+  },
+  {
+    id:"leemember",
+  category:"Maquillaje",
+  name:"LEEMEMBER  - Rubor e Iluminador en polvo",
+  price:50,
+  tag:"Disponible en el tono #PU02",
+  image:[
+    "assets/products/leemember.jpeg",
+    "assets/products/leemember_tono.jpeg",
+  ]
+  },
   {
   id: "Lip-y-Eye",
   category: "otros",
@@ -820,13 +955,53 @@ function productCard(p){
   const img = document.createElement("div");
   img.className = "card__img";
 
-  if (p.image){
+  const imageList = p.images || (p.image ? [p.image] : []);
+  let currentImg = 0;
+
+  if (imageList.length){
     const im = document.createElement("img");
-    im.src = p.image;
+    im.src = imageList[0];
     im.alt = p.name;
     im.loading = "lazy";
-    im.onerror = () => im.remove(); // si no existe, queda el placeholder bonito
+    im.onerror = () => im.remove();
     img.appendChild(im);
+
+    if (imageList.length > 1){
+      const prevBtn = document.createElement("button");
+      prevBtn.className = "imgNav imgNav--prev";
+      prevBtn.innerHTML = "&#10094;";
+      prevBtn.type = "button";
+      prevBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        currentImg = (currentImg - 1 + imageList.length) % imageList.length;
+        im.src = imageList[currentImg];
+      });
+
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "imgNav imgNav--next";
+      nextBtn.innerHTML = "&#10095;";
+      nextBtn.type = "button";
+      nextBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        currentImg = (currentImg + 1) % imageList.length;
+        im.src = imageList[currentImg];
+      });
+
+      const counter = document.createElement("span");
+      counter.className = "imgCounter";
+      counter.textContent = `1 / ${imageList.length}`;
+
+      prevBtn.addEventListener("click", () => {
+        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
+      });
+      nextBtn.addEventListener("click", () => {
+        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
+      });
+
+      img.appendChild(prevBtn);
+      img.appendChild(nextBtn);
+      img.appendChild(counter);
+    }
   }
 
   if (p.status){
