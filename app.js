@@ -65,7 +65,6 @@ const products = [
       "No deja residuo blanco ni sensación pegajosa.",
       "Ideal para piel grasa o mixta."
     ],
-    status:"Agotado",
     price:70,
     image:"assets/products/celimax-mattify-stick.webp"
   },
@@ -81,6 +80,7 @@ const products = [
       "Ideal para piel mixta o grasa.",
       "No obstruye los poros."
     ],
+    status:"Agotado",
     price:75,
     image:"assets/products/celimax-light.webp"
   },
@@ -113,6 +113,7 @@ const products = [
       "Hidratante y calmante de la piel.",
       "Aporta frescura inmediata."
     ],
+    status:"Agotado",
     price:70,
     image:"assets/products/cosrx-aloe.webp"
   },
@@ -398,6 +399,7 @@ const products = [
       "Mejora la textura y aumenta la elasticidad de la piel.",
       "Fórmula suave apta para pieles sensibles y secas."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/mixsoon-bean-cream.png"
   },
@@ -459,6 +461,7 @@ const products = [
       "Regenera, fortalece la piel y reduce líneas finas y arrugas.",
       "Reduce y atenúa estrías de la piel."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/aplb-body-retinol.png"
   },
@@ -521,20 +524,6 @@ const products = [
     image:"assets/products/eye-tocobo.webp"
   },
 
-  {
-    id:"eye-torriden-firming",
-    category:"Contorno de ojos",
-    name:"TORRIDEN Cellmazing Firming Eye Cream",
-    bullets:[
-      "Reafirma la piel del contorno de los ojos.",
-      "Aclara las ojeras.",
-      "Fortalece la elasticidad y suaviza arrugas leves.",
-      "Reduce irritaciones."
-    ],
-    price:80,
-    status:"Agotado",
-    image:"assets/products/eye-torriden.webp"
-  },
 
   {
     id:"eye-medicube-pdrn",
@@ -579,7 +568,6 @@ const products = [
       "Mejora el tono apagado de la piel.",
       "Cuidado efectivo desde casa en solo 1-2 veces por semana."
     ],
-    status:"Agotado",
     price:75,
     image:"assets/products/skin1004-stick-mask.webp"
   },
@@ -595,7 +583,6 @@ const products = [
       "Revitaliza piel apagada.",
       "Ayuda a mejorar el acné."
     ],
-    status:"Agotado",
     price:90,
     image:"assets/products/mixsoon-centella.png"
   },
