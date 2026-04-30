@@ -524,6 +524,20 @@ const products = [
     image:"assets/products/eye-tocobo.webp"
   },
 
+  {
+    id:"eye-tocobo-collagen",
+    category:"Contorno de ojos",
+    name:"CENTELLIAN24-360° Shot PDRN Lifting Eye Cream 30ml Crema Reafirmante",
+    bullets:[
+      "Reduce la apariencia de líneas finas.",
+      "Aclara y disminuye las ojeras.",
+      "Proporciona firmeza y elasticidad a la piel.",
+      "Hidrata e ilumina."
+    ],
+    price:95,
+    image:"assets/products/360shot1.webp"
+  },
+
 
   {
     id:"eye-medicube-pdrn",
@@ -693,6 +707,7 @@ const products = [
   category:"Maquillaje",
   name:"GEGE BEAR - Tinte labial bunny",
   price:35,
+  tag:"Disponible en el tono #05",
   images:[
     "assets/products/gege_bear.jpeg",
     "assets/products/gege_bear2.jpeg",
@@ -728,8 +743,8 @@ const products = [
    price:40,
    tag:"Disponible en el tono #01",
    images:[
+    "assets/products/pudaier.jpeg",
     "assets/products/pudaier_tono.png",
-    "assets/products/pudaier.jpeg"
    ],
   },
   {
@@ -753,6 +768,28 @@ const products = [
     "assets/products/Leemember.jpeg",
     "assets/products/leemember_tono.jpeg"
   ]
+  },
+  {
+    id: "Fwee",
+  category: "Maquillaje",
+  name: "FWEE - Tinte labial rose obsession",
+  price: 50,
+  tag:"Tono plum rose",
+  images: [
+    "assets/products/Fwee.jpeg",
+    "assets/products/Fwee_tono.jpeg"
+  ],
+  },
+  {
+  id:"tirtir_labial",
+  category:"Maquillaje",
+  name:"TIRTIR - Tinte labial mini",
+  price:40,
+  tag:"Tono #30 Mauve blush",
+  images:[
+    "assets/products/Tirtir_labial_mini.jpeg",
+    "assets/products/Tirtir_labial_tono.jpeg"
+  ],
   },
   {
   id: "Lip-y-Eye",
@@ -962,6 +999,7 @@ function productCard(p){
         e.stopPropagation();
         currentImg = (currentImg - 1 + imageList.length) % imageList.length;
         im.src = imageList[currentImg];
+        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
       });
 
       const nextBtn = document.createElement("button");
@@ -972,18 +1010,32 @@ function productCard(p){
         e.stopPropagation();
         currentImg = (currentImg + 1) % imageList.length;
         im.src = imageList[currentImg];
+        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
       });
 
       const counter = document.createElement("span");
       counter.className = "imgCounter";
       counter.textContent = `1 / ${imageList.length}`;
 
-      prevBtn.addEventListener("click", () => {
-        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
-      });
-      nextBtn.addEventListener("click", () => {
-        counter.textContent = `${currentImg + 1} / ${imageList.length}`;
-      });
+      /* Swipe táctil para móvil */
+      let touchStartX = 0;
+      let touchEndX = 0;
+      img.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, { passive: true });
+      img.addEventListener("touchend", (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        const diff = touchStartX - touchEndX;
+        if (Math.abs(diff) > 40){
+          if (diff > 0){
+            currentImg = (currentImg + 1) % imageList.length;
+          } else {
+            currentImg = (currentImg - 1 + imageList.length) % imageList.length;
+          }
+          im.src = imageList[currentImg];
+          counter.textContent = `${currentImg + 1} / ${imageList.length}`;
+        }
+      }, { passive: true });
 
       img.appendChild(prevBtn);
       img.appendChild(nextBtn);
