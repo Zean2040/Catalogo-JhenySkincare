@@ -886,6 +886,7 @@ const products = [
       "Mejora el tono apagado de la piel.",
       "Cuidado efectivo desde casa en solo 1-2 veces por semana."
     ],
+    status:"agotado",
     price:75,
     image:"assets/products/skin1004-stick-mask.webp"
   },
