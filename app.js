@@ -49,7 +49,7 @@ const products = [
       "Disminuye el sebo facial.",
       "Contiene extracto de centella."
     ],
-    price:75,
+    price:70,
     image:"assets/products/SKIN1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick.webp"
   },
   {
@@ -159,24 +159,28 @@ const products = [
   },
   {
     id:"Abib",
-    name:"ABIB protector solar en barra sin color",
+    name:"ABIB Protector solar Quick Sunstick",
     category:"Bloqueadores",
     bullets:[
-      "Hidratacion profunda.",
-      "para todo tipo de piel",
-      "No deja residuo blanco ni sensación grasa."
+      "Textura ligera y transparente.",
+      "Acabado luminoso (glowy) e hidratante",
+      "ideal para pieles secas, normales o quienes buscan un aspecto freso.",
+      "Resistente al agua y sudor",
+      "No deja residuos blancos ni sensación grasa"
     ],
     price:80,
     image:"assets/products/abib_sincolor.webp"
   },
   {
     id:"Abib",
-    name:"ABIB protector solar en barra con color",
+    name:"ABIB Protector solar en barra Airy sunstick ",
     category:"Bloqueadores",
     bullets:[
-      "Ideal para pieles mixtas a grasa.",
-      "Controla el exceso de sebo.",
-      "Resistente al agua y al sudor."
+      "Textura ligera y transparente .",
+      "Ideal para pieles mixta a grasa .",
+      "Acabado mate, semi-mate y sedoso.",+
+      "Controla el exceso de sebo",
+      "Resistente al agua y al sudor"
     ],
     price:80,
     image:"assets/products/abib_color.webp"
@@ -187,7 +191,7 @@ const products = [
     category:"Bloqueadores",
     bullets:[
     "Ideal para pieles sensibles",
-    "Protector físico",
+    "Protector mineral (físico)",
     "Regenera y fortalece la barrera cutánea",
     ],
     price:75,
@@ -383,31 +387,31 @@ const products = [
   },
   {
    id:"Purito Seoul",
-   name:"PURITO Seoul serum de ácido tranexámico y retinal", 
+   name:"PURITO SEOUL serum de ácido tranexámico y retinal", 
     category:"Sérums",
     bullets:[
       "Reduce manchas oscuras y melasma",
       "Mejorar la luminosidad y el tono desigual",
-      "Alisa lineas finas y mejora la textura general"
+      "Alisa líneas finas y mejora la textura general"
     ], 
     price: 90,
     image:"assets/products/purito_txa.webp"
   },
   {
     id:"Purito Seoul",
-    name:"PURITO Seoul ácido azelaico y ácido kójico",
+    name:"PURITO SEOUL ácido azelaico y ácido kójico",
     category:"Sérums",
     bullets:[
       "Combate brotes activos",
-      "Desbanece manchas pos-ácne y rojeces",
-      "Controla el ácne"
+      "Desbanece manchas pos-acné y rojeces",
+      "Controla el acné"
     ],
     price: 90,
     image:"assets/products/purito_azelaic.webp"
   },
   {
-   id:"Sunboon editor",
-   name:"SUNBOON Editor ampolla antiarrugas con péptidos",
+   id:"Sungboon editor",
+   name:"SUNGBOON EDITOR ampolla antiarrugas con péptidos",
    category:"Sérums",
     bullets:[
       "Efecto lifting tensor en frente, ojos y mandibula",
@@ -419,11 +423,11 @@ const products = [
   },
   {
   id:"centelian24",
-  name:"CENTELIAN 24 ampolla de PDRN Firming",
+  name:"CENTELIAN24 ampolla de PDRN Firming",
   category:"Sérums",
   bullets:[
-    "Repara el tejido dañado",
-    "Estímulla fibroblastos para crear colágeno y elastina",
+    "Repara el téjido dañado",
+    "Estímula fibroblastos para crear colágeno y elastina",
     "Reduce arrugas y mejora la densidad cutánea"
   ],
   price: 105,
@@ -458,7 +462,7 @@ const products = [
   name:"MEDICUBE serum de ácido succínico red",
   category:"Sérums",
   bullets:[
-    "Controla el ácne",
+    "Controla el acné",
     "Reduce puntos negros/blancos",
     "Calma brotes activos sin resecar"
   ],
@@ -467,7 +471,7 @@ const products = [
    },
    {
     id:"DR althea",
-    name:"Dr.Althea suero de infusion de acción multiple",
+    name:"Dr.Althea suero de infusión de acción multiple",
     category:"Sérums",
     bullets:[
       "Hidrata profundamente",
@@ -479,7 +483,7 @@ const products = [
    },
    {
     id:"Eqqual",
-    name:"Eqqualberry serum de vitamina C",
+    name:"EQQUALBERRY sérum de vitamina C",
     category:"Sérums",
     bullets:[
       "Iluminacion intensiva",
@@ -493,7 +497,7 @@ const products = [
   {
     id:"cream-centelian-24-madeca",
     category:"Cremas faciales",
-    name:"CENTELIAN 24 Madeca Cream",
+    name:"CENTELIAN24 Madeca Cream",
     bullets:[
       "Hidrata profundamente y aporta elasticidad luminosa.",
       "Reduce arrugas y mejora la firmeza de la piel.",
@@ -613,11 +617,11 @@ const products = [
   {
   id:"sungboon",
   category:"Cremas faciales",
-  name:"SUNGBOON Editor crema en capsulas con colageno y retinol",
+  name:"SUNGBOON EDITOR crema en cápsulas con colágeno y retinol",
   bullets:[
     "Micro-espículas que ayudan a los ingredientes áctivos a penetrar profundamente",
-    "Suaviza arrugas y reafirma",
-    "Ideal para pieles maduras o con perdida de elasticidad"
+    "Suaviza arrugas y reafirma la piel",
+    "Ideal para pieles maduras o con pérdida de elasticidad"
   ],
   price:95,
   image:"assets/products/sunboon_capsulas.webp"
@@ -627,9 +631,9 @@ const products = [
   category:"Cremas faciales",
   name:"CENTELLIAN24 Crema intensiva anti-edad con PDRN y centella asiática",
   bullets:[
-    "Estimula la regeneración celular",
+    "Estimula la regeneración célular",
     "Reduce arrugas y mejora la firmeza de la piel",
-    "Mejora la elasticidad con ADN de salmon"
+    "Mejora la elasticidad con ADN de salmón"
   ],
   price:100,
   image:"assets/products/centelian_crema.jpg"
@@ -649,7 +653,7 @@ const products = [
     {
   id:"purito",
   category:"Cremas faciales",
-  name:"Crema de pantenol y bambú",
+  name:"PURITO SEOUL Crema de pantenol y bambú",
   bullets:[
     "Alivia irritación y rojeces",
     "Repara la barrera cutánea ",
@@ -663,7 +667,7 @@ const products = [
   // CREMAS CORPORALES
   {
     id:"body-aplb-retinol-vitc-e",
-    category:"Cremas corporales y Exfoliantes corporales",
+    category:"Cremas y Exfoliantes corporales",
     name:"APLB Retinol Vitamina C + Vitamina E",
     bullets:[
       "Ilumina y unifica el tono.",
@@ -680,7 +684,7 @@ const products = [
 
   {
     id:"body-aplb-tranex-niac",
-    category:"Cremas corporales y Exfoliantes corporales",
+    category:"Cremas y Exfoliantes corporales",
     name:"APLB Tranexamic Acid Niacinamide (Corporal)",
     bullets:[
       "Reduce y previene manchas.",
@@ -693,25 +697,25 @@ const products = [
   },
    {
     id:"medicube",
-    category:"Cremas corporales y Exfoliantes corporales",
+    category:"Cremas y Exfoliantes corporales",
     name:"MEDICUBE Exfoliante corporal para el acné",
     bullets:[
       "Controla la grasa.",
       "Exfolia suavemente.",
       "Alivia la irritación.",
-      "trata el ácne corporal."
+      "trata el acné corporal."
     ],
     price:110,
     image:"assets/products/medicube_exfoliante.webp"
   },
   {
     id:"medicube",
-    category:"Cremas corporales y Exfoliantes corporales",
-    name:"MEDICUBE Exfoliante natural de ácido kojico y curcuma",
+    category:"Cremas y Exfoliantes corporales",
+    name:"MEDICUBE Exfoliante natural de ácido kójico y cúrcuma",
     bullets:[
       "Aclara zonas hiperpigmentadas.",
       "Exfolia suavemente.",
-      "Suaviza textura rubosa.",
+      "Suaviza textura rugosa.",
       "Hidrata la piel."
     ],
     price:110,
@@ -719,8 +723,8 @@ const products = [
   },
   {
     id:"eqqualberry",
-    category:"Cremas corporales y Exfoliantes corporales",
-    name:"EQQUALBERRY iluminadora de vitaminas",
+    category:"Cremas y Exfoliantes corporales",
+    name:"EQQUALBERRY Iluminadora de vitaminas",
     bullets:[
       "Reduce manchas.",
       "Ilumina piel opaca.",
@@ -732,11 +736,11 @@ const products = [
   },
    {
     id:"parnell",
-    category:"Cremas corporales y Exfoliantes corporales",
-    name:"PARNELL Bruma corporal cicamanu de ph equilibrado",
+    category:"Cremas y Exfoliantes corporales",
+    name:"PARNELL Bruma corporal cicamanu de pH equilibrado",
     bullets:[
-      "Combate ácne corporal(pecho, espalda).",
-      "Cambia la irritación post-ducha.",
+      "Combate acné corporal (pecho, espalda).",
+      "Calma la irritación post-ducha.",
       "Hidrata sin ser pegajosa."
     ],
     price:110,
@@ -744,12 +748,12 @@ const products = [
   },
    {
     id:"novo",
-    category:"Cremas corporales y Exfoliantes corporales",
+    category:"Cremas y Exfoliantes corporales",
     name:"NOVO Crema de manos",
     bullets:[
       "Hidratación profunda.",
       "Nutre las uñas.",
-      "Suavidad inmediato.",
+      "Suavidad inmediata.",
     ],
     price:65,
     image:"assets/products/novo.webp"
@@ -803,7 +807,7 @@ const products = [
     category:"Contorno de ojos",
     name:"CENTELLIAN24-360° Shot PDRN crema reafirmante para ojos",
     bullets:[
-      "Fomenta la regeneración celular.",
+      "Fomenta la regeneración célular.",
       "Mejora la elasticidad de la piel.",
       "Ideal para arrugas intensas.",
     ],
@@ -830,9 +834,9 @@ const products = [
  {
     id:"medicube",
     category:"Contorno de ojos",
-    name:"MEDICUBE crema de ojos de peptidos para lifting profundo",
+    name:"MEDICUBE crema de ojos de péptidos para lifting profundo",
     bullets:[
-      "Reafirma la piel con peptidos.",
+      "Reafirma la piel con péptidos.",
       "Efecto lifting.",
       "Adecuado para piel madura.",
       "revitaliza la piel cansada."
@@ -847,7 +851,9 @@ const products = [
     name:"VT crema reafirmante para ojos",
     bullets:[
       "Aplicador brivatorio que estimula la circulación facial.",
-      "Desinflama bolsas y reduce ojeras."
+      "Desinflama bolsas y reduce ojeras.",
+      "Reduce la apariencia de arrugas y líneas de expresión",
+      "Efecto lifting y firmeza"
     ],
     price:95,
     image:"assets/products/reedle.webp"
@@ -856,7 +862,7 @@ const products = [
   // EXFOLIANTES / ESENCIA
   {
     id:"exo-mixsoon-bean-essence",
-    category:"Exfoliantes y esencia faciales",
+    category:"Exfoliantes y esencias faciales",
     name:"MIXSOON Bean Essence",
     bullets:[
       "Elimina células muertas y mejora la textura de la piel.",
@@ -872,7 +878,7 @@ const products = [
 
   {
     id:"exo-skin1004-quick-stick-mask",
-    category:"Exfoliantes y esencia faciales",
+    category:"Exfoliantes y esencias faciales",
     name:"SKIN1004 Poremizing Quick Stick Mask",
     bullets:[
       "Elimina eficazmente el sebo y las impurezas de los poros.",
@@ -886,7 +892,7 @@ const products = [
 
   {
     id:"exo-mixsoon-centella-essence",
-    category:"Exfoliantes y esencia faciales",
+    category:"Exfoliantes y esencias faciales",
     name:"MIXSOON Soondy Centella Essence",
     bullets:[
       "Limpia profundamente los poros.",
@@ -898,6 +904,19 @@ const products = [
     price:90,
     image:"assets/products/mixsoon-centella.png"
   },
+   {
+    id:"medicube",
+    category:"Exfoliantes y esencias faciales",
+    name:"MEDICUBE Pads contónico Zero",
+    bullets:[
+      "Limpia poros y controla la grasa.",
+      "Remueve células muertas.",
+      "Suaviza la textura de la piel."
+    ],
+    price:105,
+    image:"assets/products/medicube_limpiador.webp"
+  },
+  
 
   // LIMPIADORES
   {
@@ -936,25 +955,13 @@ const products = [
     bullets:[
       "Elimina impurezas, puntos negros y maquillajes sin resecar.",
       "Exfolia suavemente.",
-      "Efectivo contra el ácne.",
+      "Efectivo contra el acné.",
       "Suave con la piel sensible."
     ],
     price:80,
     image:"assets/products/arencia.webp"
   },
-  {
-    id:"medicube",
-    category:"Limpiadores faciales",
-    name:"MEDICUBE Pads contónico Zero",
-    bullets:[
-      "Limpia poros y controla la grasa.",
-      "Remueve celulas muertas.",
-      "Suaviza la textura de la piel."
-    ],
-    price:105,
-    image:"assets/products/medicube_limpiador.webp"
-  },
-  
+
   /* Maquillaje */
   {
    id:"tirtir",
@@ -966,7 +973,7 @@ const products = [
     "Incluye protección solar SPF40-50"
    ],
    price:105,
-   tag:"Disponible en tono 17",
+   tag:"Disponible en tono 17C",
    images:[
      "assets/products/tirtir.jpeg",
      "assets/products/tirtir_17.jpeg"
