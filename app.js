@@ -178,7 +178,7 @@ const products = [
     bullets:[
       "Textura ligera y transparente .",
       "Ideal para pieles mixta a grasa .",
-      "Acabado mate, semi-mate y sedoso.",+
+      "Acabado mate, semi-mate y sedoso.",
       "Controla el exceso de sebo",
       "Resistente al agua y al sudor"
     ],
@@ -187,7 +187,7 @@ const products = [
   },
   {
     id:"SKIN1004",
-    name:"SKIN1004 Madagascar Centella Air Fit Suncream lite",
+    name:"SKIN1004 Madagascar Centella Air Fit Suncream light",
     category:"Bloqueadores",
     bullets:[
     "Ideal para pieles sensibles",
