@@ -205,7 +205,7 @@ const products = [
     "Fórmula no pegajosa",
     "Hidrata intensamente"
   ],
-  price:85,
+  price:80,
   category:"Bloqueadores",
   image:"assets/products/dermaB.webp"
 
@@ -305,7 +305,7 @@ const products = [
       "Ofrece hidratación duradera y nutritiva.",
       "Aumenta la elasticidad de manera visible."
     ],
-    price:110,
+    price:105,
     image:"assets/products/medicube-pdrn-serum.webp"
   },
 
@@ -350,7 +350,7 @@ const products = [
       "Aporta brillo y luminosidad.",
       "Regenera la piel desde el interior."
     ],
-    price:95,
+    price:80,
     image:"assets/products/medicube-collagen-glow.png"
   },
 
@@ -367,7 +367,7 @@ const products = [
       "Aporta brillo y luminosidad.",
       "Efecto anti-edad."
     ],
-    price:110,
+    price:105,
     image:"assets/products/koji-white.jpg"
   },
 
@@ -525,6 +525,19 @@ const products = [
     price:110,
     image:"assets/products/medicube-deep-vita-c.webp"
   },
+    {
+    id:"eqqualberry",
+    category:"Cremas faciales",
+    name:"EQQUALBERRY Iluminadora de vitaminas",
+    bullets:[
+      "Reduce manchas.",
+      "Ilumina piel opaca.",
+      "Refuerza barrera cutánea.",
+      "Hidratación profunda."
+    ],
+    price:105,
+    image:"assets/products/eqqual_corporal.webp"
+  },
 
   {
     id:"cream-medicube-pink-collagen",
@@ -536,7 +549,7 @@ const products = [
       "Ayuda a suavizar líneas finas y arrugas.",
       "Restaura la elasticidad de la piel."
     ],
-    price:110,
+    price:105,
     image:"assets/products/medicube-pink-collagen.webp"
   },
 
@@ -623,7 +636,7 @@ const products = [
     "Suaviza arrugas y reafirma la piel",
     "Ideal para pieles maduras o con pérdida de elasticidad"
   ],
-  price:95,
+  price:90,
   image:"assets/products/sunboon_capsulas.webp"
   },
    {
@@ -635,7 +648,7 @@ const products = [
     "Reduce arrugas y mejora la firmeza de la piel",
     "Mejora la elasticidad con ADN de salmón"
   ],
-  price:100,
+  price:95,
   image:"assets/products/centelian_crema.jpg"
   },
     {
@@ -721,19 +734,6 @@ const products = [
     price:110,
     image:"assets/products/medicube_corporal.webp"
   },
-  {
-    id:"eqqualberry",
-    category:"Cremas y Exfoliantes corporales",
-    name:"EQQUALBERRY Iluminadora de vitaminas",
-    bullets:[
-      "Reduce manchas.",
-      "Ilumina piel opaca.",
-      "Refuerza barrera cutánea.",
-      "Hidratación profunda."
-    ],
-    price:120,
-    image:"assets/products/eqqual_corporal.webp"
-  },
    {
     id:"parnell",
     category:"Cremas y Exfoliantes corporales",
@@ -811,7 +811,7 @@ const products = [
       "Mejora la elasticidad de la piel.",
       "Ideal para arrugas intensas.",
     ],
-    price:95,
+    price:90,
     image:"assets/products/360shot1.webp"
   }, 
 
@@ -841,7 +841,7 @@ const products = [
       "Adecuado para piel madura.",
       "revitaliza la piel cansada."
     ],
-    price:95,
+    price:90,
     image:"assets/products/medicube_ojos.jpg"
   },
   
@@ -855,7 +855,7 @@ const products = [
       "Reduce la apariencia de arrugas y líneas de expresión",
       "Efecto lifting y firmeza"
     ],
-    price:95,
+    price:90,
     image:"assets/products/reedle.webp"
   },
   
@@ -987,7 +987,7 @@ const products = [
   bullets:[
     "Tono dry rose",
   ],
-  price:50,
+  price:45,
   image:"assets/products/mixsoon_labial.jpeg"
   },
   {
@@ -1020,7 +1020,7 @@ const products = [
   bullets:[
     "Disponible en el tono DL03 Fauve Layer"
   ],
-  price:50,
+  price:45,
   images:[
     "assets/products/black_tinte.jpeg",
     "assets/products/black_rouge.jpeg"
@@ -1030,7 +1030,7 @@ const products = [
     id:"shobido",
     category:"Maquillaje",
     name:"SHOBIDO - Bálsamo labial Disney Frozen",
-    price:50,
+    price:40,
     image:"assets/products/shobido.jpeg"
   },
    {
@@ -1093,7 +1093,7 @@ const products = [
     id:"leemember",
   category:"Maquillaje",
   name:"LEEMEMBER  - Rubor e Iluminador en polvo",
-  price:50,
+  price:45,
   tag:"Disponible en el tono #PU02",
   images:[
     "assets/products/Leemember.jpeg",
@@ -1104,7 +1104,7 @@ const products = [
     id: "Fwee",
   category: "Maquillaje",
   name: "FWEE - Tinte labial rose obsession",
-  price: 50,
+  price: 45,
   tag:"Tono plum rose",
   images: [
     "assets/products/Fwee.jpeg",
