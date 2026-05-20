@@ -28,7 +28,7 @@ const products = [
       "Iluminador y antiarrugas.",
       "Contiene ingredientes calmantes."
     ],
-    status: "Agotado",
+    Status: "Agotado",
     price: 75,
     variants: [
       { label: "UND", price: 70 },
@@ -580,7 +580,7 @@ const products = [
       "Mejora la textura y aumenta la elasticidad de la piel.",
       "Fórmula suave apta para pieles sensibles y secas."
     ],
-    status:"Agotado",
+    Status:"Agotado",
     price:85,
     image:"assets/products/mixsoon-bean-cream.png"
   },
@@ -596,7 +596,7 @@ const products = [
       "Hidrata intensamente sin obstruir los poros.",
       "Ilumina el tono y revitaliza la piel apagada."
     ],
-    status:"Agotado",
+    Status:"Agotado",
     price:85,
     image:"assets/products/dralthea-345.png"
   },
