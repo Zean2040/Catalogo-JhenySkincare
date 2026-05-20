@@ -28,6 +28,7 @@ const products = [
       "Iluminador y antiarrugas.",
       "Contiene ingredientes calmantes."
     ],
+    status: "Agotado",
     price: 75,
     variants: [
       { label: "UND", price: 70 },
@@ -611,6 +612,7 @@ const products = [
       "Fortalece la barrera cutánea."
     ],
     price:90,
+    Status:"Agotado",
     image:"assets/products/celimax-pore-darkspot-cream.webp"
   },
   {
