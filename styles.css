@@ -309,6 +309,7 @@ body{
 .btn:disabled{
   opacity:.55;
   cursor:not-allowed;
+  pointer-events:none;
 }
 
 .badge{

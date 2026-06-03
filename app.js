@@ -28,7 +28,7 @@ const products = [
       "Iluminador y antiarrugas.",
       "Contiene ingredientes calmantes."
     ],
-    Status: "Agotado",
+    status: "Agotado",
     price: 75,
     variants: [
       { label: "UND", price: 70 },
@@ -368,6 +368,7 @@ const products = [
       "Aporta brillo y luminosidad.",
       "Efecto anti-edad."
     ],
+    status:"Agotado",
     price:105,
     image:"assets/products/koji-white.jpg"
   },
@@ -580,7 +581,7 @@ const products = [
       "Mejora la textura y aumenta la elasticidad de la piel.",
       "Fórmula suave apta para pieles sensibles y secas."
     ],
-    Status:"Agotado",
+    status:"Agotado",
     price:85,
     image:"assets/products/mixsoon-bean-cream.png"
   },
@@ -596,7 +597,7 @@ const products = [
       "Hidrata intensamente sin obstruir los poros.",
       "Ilumina el tono y revitaliza la piel apagada."
     ],
-    Status:"Agotado",
+    status:"Agotado",
     price:85,
     image:"assets/products/dralthea-345.png"
   },
@@ -612,7 +613,7 @@ const products = [
       "Fortalece la barrera cutánea."
     ],
     price:90,
-    Status:"Agotado",
+    status:"Agotado",
     image:"assets/products/celimax-pore-darkspot-cream.webp"
   },
   {
