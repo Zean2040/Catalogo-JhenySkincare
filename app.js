@@ -734,6 +734,7 @@ const products = [
       "Suaviza textura rugosa.",
       "Hidrata la piel."
     ],
+    status:"Agotado",
     price:110,
     image:"assets/products/medicube_corporal.webp"
   },
