@@ -420,6 +420,7 @@ const products = [
       "Reduce líneas de expresión y arrugas profundas",
       "Aumenta la elasticidad y densidad en la piel"
     ],
+    status:"Agotado", 
     price: 105,
     image:"assets/products/sunboon_ampolla.webp"
   },
@@ -663,6 +664,7 @@ const products = [
     "Mezcla de PDRN y centella para reparar mientras aclara",
     "Ilumina la piel opaca"
   ],
+  status:"Agotado",
   price:105,
   image:"assets/products/centelian24_capsulas.webp"
   },
@@ -912,7 +914,7 @@ const products = [
    {
     id:"medicube",
     category:"Exfoliantes y esencias faciales",
-    name:"MEDICUBE Pads contónico Zero",
+    name:"MEDICUBE Pads con tonico Zero Pore",
     bullets:[
       "Limpia poros y controla la grasa.",
       "Remueve células muertas.",
