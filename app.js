@@ -914,7 +914,7 @@ const products = [
    {
     id:"medicube",
     category:"Exfoliantes y esencias faciales",
-    name:"MEDICUBE Pads con tonico Zero Pore",
+    name:"MEDICUBE Pads con tónico Zero Pore",
     bullets:[
       "Limpia poros y controla la grasa.",
       "Remueve células muertas.",
