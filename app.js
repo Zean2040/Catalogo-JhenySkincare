@@ -321,6 +321,7 @@ const products = [
       "Reduce arrugas y signos de envejecimiento.",
       "Regenera y fortalece la piel."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/celimax-retinal.webp"
   },
