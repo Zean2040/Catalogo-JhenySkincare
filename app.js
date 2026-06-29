@@ -553,6 +553,7 @@ const products = [
       "Ayuda a suavizar líneas finas y arrugas.",
       "Restaura la elasticidad de la piel."
     ],
+    status:"Agotado",
     price:105,
     image:"assets/products/medicube-pink-collagen.webp"
   },
@@ -919,7 +920,8 @@ const products = [
     bullets:[
       "Limpia poros y controla la grasa.",
       "Remueve células muertas.",
-      "Suaviza la textura de la piel."
+      "Suaviza la textura de la piel.",
+      "Eficaz para tratar los comedones y el Acné"
     ],
     price:105,
     image:"assets/products/medicube_limpiador.webp"
