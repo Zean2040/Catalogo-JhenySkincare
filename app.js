@@ -28,11 +28,8 @@ const products = [
       "Iluminador y antiarrugas.",
       "Contiene ingredientes calmantes."
     ],
-    status: "Agotado",
-    price: 75,
+    price: 70,
     variants: [
-      { label: "UND", price: 70 },
-      { label: "DUO", price: 120 }
     ],
    
     image: "assets/products/BloqueadorSKIN1004Hyalu-Cica.webp"
@@ -169,7 +166,7 @@ const products = [
       "Resistente al agua y sudor",
       "No deja residuos blancos ni sensación grasa"
     ],
-    price:80,
+    price:75,
     image:"assets/products/abib_sincolor.webp"
   },
   {
@@ -183,7 +180,7 @@ const products = [
       "Controla el exceso de sebo",
       "Resistente al agua y al sudor"
     ],
-    price:80,
+    price:75,
     image:"assets/products/abib_color.webp"
   },
   {
@@ -211,6 +208,32 @@ const products = [
   image:"assets/products/dermaB.webp"
 
  },
+ {
+  id:"VT",
+  name:"VT - Protector solar Compacto",
+  bullets:[
+    "Con Péptidos,  Elastina y Centella Asiática ",
+    "para pieles mixtas, secas y maduras",
+    "Acabado Luminoso ",
+    "Hidrata la piel "
+  ],
+  price:80,
+  category:"Bloqueadores",
+  image:"assets/products/VT_protector.jpeg"
+},
+ {
+  id:"SKIN1004-PROTECTOR SOLAR",
+  name:"Skin1004 - Protector solar Madagascar centella Air Fit Suncream plus",
+  bullets:[
+    "Ideal para pieles mixtas a grasas y sensibles",
+    "Efecto Iluminador y tono natural",
+    "Protector solar mineral (fisico)",
+    "Calma e hidrata la piel"
+  ],
+  price:75,
+  category:"Bloqueadores",
+  image:"assets/products/SKIN1004PROTECTOR.jpeg"
+},
 
   // SÉRUMS
   {
@@ -321,7 +344,6 @@ const products = [
       "Reduce arrugas y signos de envejecimiento.",
       "Regenera y fortalece la piel."
     ],
-    status:"Agotado",
     price:85,
     image:"assets/products/celimax-retinal.webp"
   },
@@ -864,7 +886,7 @@ const products = [
       "Efecto lifting y firmeza"
     ],
     price:90,
-    image:"assets/products/reedle.webp"
+    image:"assets/products/reedle.jpeg"
   },
   
   // EXFOLIANTES / ESENCIA
@@ -894,7 +916,6 @@ const products = [
       "Mejora el tono apagado de la piel.",
       "Cuidado efectivo desde casa en solo 1-2 veces por semana."
     ],
-    status:"agotado",
     price:75,
     image:"assets/products/skin1004-stick-mask.webp"
   },
@@ -923,6 +944,7 @@ const products = [
       "Suaviza la textura de la piel.",
       "Eficaz para tratar los comedones y el Acné"
     ],
+    status:"Agotado",
     price:105,
     image:"assets/products/medicube_limpiador.webp"
   },
@@ -971,7 +993,19 @@ const products = [
     price:80,
     image:"assets/products/arencia.webp"
   },
-
+  {
+    id:"Round Lab",
+    category:"Limpiadores faciales",
+    name:"Round Lab - Limpiador facial hidratante ",
+    bullets:[
+      "Elimina impurezas, sudor y restos de maquillaje.",
+      "Hidrata y calma la piel.",
+      "Balancea el pH de la piel .",
+      "Apto para todo tipo de piel.",
+    ],
+    price:75,
+    image:"assets/products/Round_lab.jpeg"
+  },
   /* Maquillaje */
   {
    id:"tirtir",
@@ -1006,6 +1040,7 @@ const products = [
     bullets:[
       "Disponible en el tono k16"
     ],
+    status:"Agotado",
    price:35,
    images:[
        "assets/products/labial_k16.jpeg",
@@ -1044,6 +1079,7 @@ const products = [
   },
    {
    id:"gege_bear",
+   status:"Agotado",
   category:"Maquillaje",
   name:"GEGE BEAR - Tinte labial bunny",
   price:35,
@@ -1066,6 +1102,7 @@ const products = [
    },   
   {
    id:"handaiyan",
+   status:"Agotado",
   category:"Maquillaje",
   name:"HANDAIYAN - Rubor en barra con Tinte",
   price:40,
