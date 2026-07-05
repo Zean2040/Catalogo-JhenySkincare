@@ -28,7 +28,7 @@ const products = [
       "Iluminador y antiarrugas.",
       "Contiene ingredientes calmantes."
     ],
-    price: 70,
+    price: 80,
     variants: [
     ],
    
@@ -61,7 +61,7 @@ const products = [
       "No deja residuo blanco ni sensación pegajosa.",
       "Ideal para piel grasa o mixta."
     ],
-    price:75,
+    price:80,
     image:"assets/products/celimax-mattify-stick.webp"
   },
 
@@ -95,23 +95,6 @@ const products = [
     status:"Agotado",
     price:80,
     image:"assets/products/celimax-pore-darkspot.webp"
-  },
-
-  {
-    id:"bloq-cosrx-aloe",
-    category:"Bloqueadores",
-    name:"COSRX Aloe Soothing Sun Cream SPF50+ PA+++",
-    bullets:[
-      "Hidrata y calma la piel.",
-      "Textura ligera y no pegajosa.",
-      "Apto para pieles sensibles.",
-      "Ideal para uso diario.",
-      "Hidratante y calmante de la piel.",
-      "Aporta frescura inmediata."
-    ],
-    status:"Agotado",
-    price:70,
-    image:"assets/products/cosrx-aloe.webp"
   },
     {
     id:"bloq-beauty-of-joseon-relief-sun",
@@ -166,7 +149,7 @@ const products = [
       "Resistente al agua y sudor",
       "No deja residuos blancos ni sensación grasa"
     ],
-    price:75,
+    price:80,
     image:"assets/products/abib_sincolor.webp"
   },
   {
@@ -180,7 +163,7 @@ const products = [
       "Controla el exceso de sebo",
       "Resistente al agua y al sudor"
     ],
-    price:75,
+    price:80,
     image:"assets/products/abib_color.webp"
   },
   {
@@ -203,6 +186,7 @@ const products = [
     "Fórmula no pegajosa",
     "Hidrata intensamente"
   ],
+  status:"Agotado",
   price:80,
   category:"Bloqueadores",
   image:"assets/products/dermaB.webp"
@@ -230,7 +214,7 @@ const products = [
     "Protector solar mineral (fisico)",
     "Calma e hidrata la piel"
   ],
-  price:75,
+  price:80,
   category:"Bloqueadores",
   image:"assets/products/SKIN1004PROTECTOR.jpeg"
 },
@@ -314,6 +298,7 @@ const products = [
       "Antioxidante contra el envejecimiento.",
       "Regenera y fortalece la piel."
     ],
+    status:"Agotado",
     price:90,
     image:"assets/products/dralthea-vitc-boosting.png"
   },
@@ -664,7 +649,7 @@ const products = [
     "Suaviza arrugas y reafirma la piel",
     "Ideal para pieles maduras o con pérdida de elasticidad"
   ],
-  price:90,
+  price:95,
   image:"assets/products/sunboon_capsulas.webp"
   },
    {
@@ -841,6 +826,7 @@ const products = [
       "Mejora la elasticidad de la piel.",
       "Ideal para arrugas intensas.",
     ],
+    status:"Agotado",
     price:90,
     image:"assets/products/360shot1.webp"
   }, 
@@ -977,7 +963,7 @@ const products = [
       "Mantiene la piel hidratada.",
       "Efecto calmante facial."
     ],
-    price:65,
+    price:75,
     image:"assets/products/skin1004-espuma.jpg"
   },
   {
@@ -990,7 +976,7 @@ const products = [
       "Efectivo contra el acné.",
       "Suave con la piel sensible."
     ],
-    price:80,
+    price:75  ,
     image:"assets/products/arencia.webp"
   },
   {
