@@ -135,6 +135,7 @@ const products = [
       "Hidrata profundamente.",
       "Sin sensación pegajosa."
     ],
+    status:"Agotado",
     price:75,
     image:"assets/products/medipeel.jpg"
   },
@@ -232,7 +233,7 @@ const products = [
       "Nutre y fortalece la barrera cutánea."
     ],
     price:80,
-    image:"assets/products/ksecret-1988-cream.webp"
+    image:"assets/products/ksecret-1988-cream.jpeg"
   },
 
 
@@ -532,7 +533,6 @@ const products = [
       "Hidrata intensamente.",
       "Refuerza la barrera cutánea."
     ],
-    status:"Agotado",
     price:110,
     image:"assets/products/medicube-deep-vita-c.webp"
   },
