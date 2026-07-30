@@ -47,7 +47,7 @@ const products = [
       "Disminuye el sebo facial.",
       "Contiene extracto de centella."
     ],
-    price:70,
+    price:80,
     image:"assets/products/SKIN1004 Madagascar Centella Hyalu-Cica Silky-Fit Sun Stick.webp"
   },
   {
