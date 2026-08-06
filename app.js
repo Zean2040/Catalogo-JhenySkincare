@@ -360,6 +360,7 @@ const products = [
       "Aporta brillo y luminosidad.",
       "Regenera la piel desde el interior."
     ],
+    status:"Agotado",
     price:80,
     image:"assets/products/medicube-collagen-glow.png"
   },
@@ -405,6 +406,7 @@ const products = [
       "Mejorar la luminosidad y el tono desigual",
       "Alisa líneas finas y mejora la textura general"
     ], 
+    status:"Agotado",
     price: 90,
     image:"assets/products/purito_txa.webp"
   },
@@ -576,6 +578,7 @@ const products = [
       "Reduce el brillo.",
       "Se absorbe rápidamente sin dejar residuos."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/celimax-oil-control-cream.png"
   },
@@ -862,7 +865,7 @@ const products = [
   },
   
  {
-    id:"VT",
+    id:"Crema ojo",
     category:"Contorno de ojos",
     name:"VT crema reafirmante para ojos",
     bullets:[
@@ -1051,6 +1054,7 @@ const products = [
     "Disponible en el tono DL03 Fauve Layer"
   ],
   price:45,
+  status:"Agotado",
   images:[
     "assets/products/black_tinte.jpeg",
     "assets/products/black_rouge.jpeg"
@@ -1137,6 +1141,7 @@ const products = [
   category: "Maquillaje",
   name: "FWEE - Tinte labial rose obsession",
   price: 45,
+  status: "Agotado",
   tag:"Tono plum rose",
   images: [
     "assets/products/Fwee.jpeg",
