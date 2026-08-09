@@ -504,6 +504,7 @@ const products = [
       "Reduce manchas y previene la hiperpigmentación",
       "Acto para todo tipo de piel incluyendo sensibles"
     ],
+    status:"agotado",
     price:95,
     image:"assets/products/eqqual.webp"
    },
@@ -664,6 +665,7 @@ const products = [
     "Reduce arrugas y mejora la firmeza de la piel",
     "Mejora la elasticidad con ADN de salmón"
   ],
+  status:"Agotado",
   price:95,
   image:"assets/products/centelian_crema.jpg"
   },
@@ -802,6 +804,7 @@ const products = [
       "Aporta iluminación y mejora el contorno.",
       "Firmeza y elasticidad."
     ],
+    status:"Agotado",
     price:85,
     image:"assets/products/eye-ksecret-1988.webp"
   },
