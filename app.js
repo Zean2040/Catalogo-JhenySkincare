@@ -463,6 +463,7 @@ const products = [
  id:"anua",
  name:"ANUA Serum facial con niacinamida y ácido tranexámico",
  category:"Sérums",
+ status:"Agotado",
  bullets:[
   "Despigmenta y atenua marcas de acné",
   "Unifica el tono de la piel",
