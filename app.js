@@ -265,6 +265,7 @@ const products = [
       "Textura ligera y no pegajosa.",
       "Regenera la piel desde el interior"
     ],
+    status:"Agotado",
     price:90,
     image:"assets/products/skin1004-retinol-02.webp"
     
@@ -654,6 +655,7 @@ const products = [
     "Suaviza arrugas y reafirma la piel",
     "Ideal para pieles maduras o con pérdida de elasticidad"
   ],
+  status:"Agotado",
   price:95,
   image:"assets/products/sunboon_capsulas.webp"
   },
